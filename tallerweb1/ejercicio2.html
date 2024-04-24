@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML -->
+<html>
+<head>
+    <title>Formulario de prueba de HTML5</title> <!-- Título del documento -->
+</head>
+<body>
+
+<form action="" method="get"> <!-- Inicio del formulario -->
+    <!-- Campo para ingresar el nombre con enfoque automático y requerido -->
+    <p>
+        Nombre: <input type="text" name="name_control" autofocus required />
+    </p>
+
+    <!-- Campo para ingresar el correo electrónico requerido -->
+    <p>
+        Correo electrónico: <input type="email" name="email_control" required />
+    </p>
+
+    <!-- Campo para ingresar una URL con un marcador de posición -->
+    <p>
+        URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" />
+    </p>
+
+    <!-- Campo para ingresar una fecha -->
+    <p>
+        Fecha: <input type="date" name="date_control" />
+    </p>
+
+    <!-- Campo para ingresar una hora -->
+    <p>
+        Tiempo: <input type="time" name="time_control" />
+    </p>
+
+    <!-- Campo para ingresar una fecha y hora -->
+    <p>
+        Fecha y hora: <input type="datetime" name="datetime_control" />
+    </p>
+
+    <!-- Campo para ingresar un mes -->
+    <p>
+        Mes: <input type="month" name="month_control" />
+    </p>
+
+    <!-- Campo para ingresar una semana -->
+    <p>
+        Semana: <input type="week" name="week_control" />
+    </p>
+
+    <!-- Campo para ingresar un número con un rango definido -->
+    <p>
+        Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
+    </p>
+
+    <!-- Campo para ingresar un número de teléfono -->
+    <p>
+        Teléfono: <input type="tel" name="tel_control" />
+    </p>
+
+    <!-- Campo para ingresar un término de búsqueda -->
+    <p>
+        Término de búsqueda: <input type="search" name="search_control" />
+    </p>
+
+    <!-- Campo para seleccionar un color -->
+    <p>
+        Color favorito: <input type="color" name="color_control" />
+    </p>
+
+    <!-- Botón de enviar el formulario -->
+    <p>
+        <input type="submit" value="Enviar" />
+    </p>
+</form> <!-- Fin del formulario -->
+</body>
+</html>
